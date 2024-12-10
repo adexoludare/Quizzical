@@ -86,7 +86,7 @@ function Quizzical(props) {
         <button onClick={calculateResults}>Check answers</button>
       )}
       {showResults && (
-        <p>{`You got ${correctCount} out of ${totalQuestions} correct!`}</p>
+        <p className="result">{`You got ${correctCount} out of ${totalQuestions} correct!`}</p>
       )}
     </div>
   );

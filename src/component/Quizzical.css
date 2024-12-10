@@ -7,7 +7,7 @@
     box-sizing: border-box;
     display: inline-block;
     min-width: 60px;
-    height: 30px;
+    /* height: 30px; */
     padding: 2px 4px;
     border: 1px solid;
     border-radius: 8px;
@@ -25,4 +25,12 @@
 
 .incorrect{
     background: #F8BCBC;
+}
+
+.progress, .result{
+    font-size: 1.125rem;
+}
+
+.result{
+    font-weight:900;
 }

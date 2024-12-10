@@ -1,5 +1,5 @@
 .container{
-    width: 550px;
+    width: 320px;
     min-height: 550px;
     background: #F5F7FB ;
     position: relative;
@@ -26,4 +26,10 @@
     position: absolute;
     bottom: -85px;
     left: -95px;
+  }
+
+  @media (min-width:786px) {
+    .container{
+      width: 650px;
+    }
   }
