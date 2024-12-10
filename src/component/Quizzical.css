@@ -1,0 +1,28 @@
+.qus{
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+}
+.opt{
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 60px;
+    height: 30px;
+    padding: 2px 4px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 2px;
+    cursor: pointer;
+}
+.selected{
+    background: #D6DBF5;
+}
+
+.correct{
+    background: #94D7A2;
+
+}
+
+.incorrect{
+    background: #F8BCBC;
+}

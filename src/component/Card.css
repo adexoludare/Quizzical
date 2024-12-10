@@ -1,0 +1,29 @@
+.container{
+    width: 550px;
+    min-height: 550px;
+    background: #F5F7FB ;
+    position: relative;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity: 0.99; /* make it 99% transparent */
+    /* padding: 25%; */
+  }
+
+.topCircle, .bottomCircle{
+    width: 350px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: -1; /* this send the circle to the back of container div*/
+  }
+  .topCircle{
+    background: #FFFAD1;
+    position: absolute;
+    top: -85px;
+    right: -95px;
+  }
+  .bottomCircle{
+    background:#DEEBF8;
+    position: absolute;
+    bottom: -85px;
+    left: -95px;
+  }
